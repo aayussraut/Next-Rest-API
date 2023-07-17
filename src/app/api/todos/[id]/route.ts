@@ -1,5 +1,4 @@
 import {NextResponse} from "next/server";
-import {useRouter} from "next/navigation";
 
 export async function GET(request:Request,{params}:{params:{id:string}}){
 
